@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title data-i18n="title">Technical Documentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="lang-switcher">
+    <label for="language">🌐</label>
+    <select id="language">
+      <option value="en">English</option>
+      <option value="fr">Français</option>
+      <option value="es">Español</option>
+      <option value="ar">العربية</option>
+    </select>
+  </div>
+
+  <nav id="navbar">
+    <header data-i18n="docTitle">Documentation</header>
+    <a class="nav-link" href="#Introduction" data-i18n="Introduction">Introduction</a>
+    <a class="nav-link" href="#Getting_Started" data-i18n="Getting_Started">Getting Started</a>
+    <a class="nav-link" href="#Syntax" data-i18n="Syntax">Syntax</a>
+    <a class="nav-link" href="#Examples" data-i18n="Examples">Examples</a>
+    <a class="nav-link" href="#Conclusion" data-i18n="Conclusion">Conclusion</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header data-i18n="Introduction">Introduction</header>
+      <p>This is a sample documentation to show how a language works.</p>
+      <p>It is helpful for beginners and professionals alike.</p>
+      <code>let x = 10;</code>
+    </section>
+
+    <section class="main-section" id="Getting_Started">
+      <header data-i18n="Getting_Started">Getting Started</header>
+      <p>To get started, install the necessary software.</p>
+      <p>Then configure your environment.</p>
+      <ul>
+        <li>Install the interpreter</li>
+        <li>Set environment variables</li>
+      </ul>
+      <code>npm install example</code>
+    </section>
+
+    <section class="main-section" id="Syntax">
+      <header data-i18n="Syntax">Syntax</header>
+      <p>The syntax is simple and readable.</p>
+      <p>Use camelCase for naming variables.</p>
+      <code>function sayHello() { console.log("Hello"); }</code>
+    </section>
+
+    <section class="main-section" id="Examples">
+      <header data-i18n="Examples">Examples</header>
+      <p>Here are a few examples to demonstrate usage.</p>
+      <p>You can build web, desktop, or mobile apps.</p>
+      <ul>
+        <li>Web: React</li>
+        <li>Mobile: React Native</li>
+        <li>Desktop: Electron</li>
+      </ul>
+      <code>console.log("Example Output");</code>
+    </section>
+
+    <section class="main-section" id="Conclusion">
+      <header data-i18n="Conclusion">Conclusion</header>
+      <p>This concludes our technical overview.</p>
+      <p>Refer to official docs for deeper learning.</p>
+      <code>export default App;</code>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
